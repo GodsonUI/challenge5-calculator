@@ -1,3 +1,10 @@
+html, body {
+	margin: 0;
+}
+.header {
+	height: auto;
+	/*padding: 2px;*/
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...}
 
