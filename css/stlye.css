@@ -2,6 +2,7 @@ html, body {
 	margin: 0;
 	height: 100%;
 	background: #222;
+  font-family: 'Catamaran', sans-serif;
 }
 
 *, *:before, *:after {
@@ -9,7 +10,6 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Catamaran', sans-serif;
 }
 
 .container-wrap {
@@ -25,7 +25,7 @@ html, body {
 	align-items: center;
 }
 .container {
-	height: 100px;
+	height: auto;
 	width: 40%;
 	position: relative;
 	background: #fff;
@@ -36,7 +36,7 @@ html, body {
 	padding: 1rem 1rem 0;
 	height: auto;
 	width: 100%;
-	/*background: red;*/
+	background: red;
 }
 .cal-menu {
 	display: -webkit-flex;
@@ -53,6 +53,19 @@ html, body {
 	margin-right: 4px;
 }
 
+.screen-display p {
+	text-align: right;
+	margin: 3px 0;
+}
+
+.prev-val {
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: #ced3e2;
+}
+.current-val {
+	font-size: 3rem;
+}
 @media all and (max-width: 1199px) { 
 	.container {
 		width: 60%;
