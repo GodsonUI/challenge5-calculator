@@ -36,7 +36,7 @@ html, body {
 	padding: 1rem 1rem 0;
 	height: auto;
 	width: 100%;
-	background: red;
+	/*background: red;*/
 }
 .cal-menu {
 	display: -webkit-flex;
@@ -44,7 +44,13 @@ html, body {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	background: green;
+}
+.dark-circle {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #ced3e2;
+	margin-right: 4px;
 }
 
 @media all and (max-width: 1199px) { 
