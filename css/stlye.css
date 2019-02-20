@@ -91,14 +91,41 @@ html, body {
 	/*padding-top: 5px;*/
 }
 .sign-keys {
-	/*height*/
 	border-bottom-right-radius: 10px;
 	width: 25%;
 	background: linear-gradient(180deg, #f6d361 0%, #ff9c66 100%);
 	border-bottom: 1px red;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+.sign-key {
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	font-size: 2vw;
+	border-bottom: 1px solid #b1aeb3;
+	border-right: none;
+	height: 20%;
 	color: #fff;
 }
-
+.sign-key:last-child {
+  border-bottom: none;
+}
 .top-keys {
 	width: 100%;
 	display: -webkit-flex;
@@ -106,7 +133,7 @@ html, body {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	height: 25%;
+	height: 20%;
 	justify-content: space-between;
 	background: #F5E1FD;
 
@@ -123,6 +150,7 @@ html, body {
 	-ms-align-items: center;
 	align-items: center;
 	justify-content: center;
+	cursor: pointer;
 	font-size: 1.6vw;
 	border-bottom: 1px solid #b1aeb3;
 	border-right: 1px solid #b1aeb3;
@@ -151,7 +179,7 @@ sup {
 	.container-wrap {
 		width: 90%;
 	}
-	.keys {
+	.sign-key {
 		font-size: 3vw;
 	}
 } 
@@ -173,7 +201,7 @@ sup {
 	.number-keys {
 		width: 75%;
 	}
-	.keys {
+	.sign-key {
 		font-size: 6vw;
 	}
 }
