@@ -23,6 +23,7 @@ html, body {
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
+	justify-content: center;
 }
 .container {
 	height: auto;
@@ -62,9 +63,11 @@ html, body {
 	font-size: 1.2rem;
 	font-weight: 400;
 	color: #ced3e2;
+	letter-spacing: 1.3px;
 }
 .current-val {
 	font-size: 3rem;
+	letter-spacing: 2px;
 }
 
 /*///////////////////////////////////////////////////////////////////////////*/
