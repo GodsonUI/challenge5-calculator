@@ -443,6 +443,9 @@ a {text-decoration: none;}
 	.cal-frame {
 		width: 30%;
 	}
+	.container {
+		width: 30%;
+	}
 	.sign-key {
 		font-size: 3.2vw;
 	}
@@ -452,6 +455,9 @@ a {text-decoration: none;}
 } 
 @media all and (max-width: 991px) { 
 	.cal-frame {
+		width: 35%;
+	}
+	.container {
 		width: 35%;
 	}
 	.sign-key {
@@ -477,6 +483,9 @@ a {text-decoration: none;}
 	.cal-frame {
 		width: 50%;
 	}
+	.container {
+		width: 50%;
+	}
 	.keys {
 		font-size: 3.1vw;
 	}
@@ -498,6 +507,9 @@ a {text-decoration: none;}
 } 
 @media all and (max-width: 575px) { 
 	.cal-frame {
+		width: 90%;
+	}
+	.container {
 		width: 90%;
 	}
 	.number-keys {
