@@ -116,10 +116,6 @@ html, body {
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
-	-ms-align-items: center;
-	align-items: center;
-	justify-content: center;
-	cursor: pointer;
 	font-size: 2vw;
 	border-bottom: 1px solid #b1aeb3;
 	border-right: none;
@@ -139,7 +135,6 @@ html, body {
 	height: 20%;
 	justify-content: space-between;
 	background: #F5E1FD;
-
 }
 
 .keys {
@@ -216,6 +211,7 @@ sup {
 .zero-btn {
 	border-bottom-left-radius: 10px;
 	width: 66.66666666666667%;
+	
 }
 /*Key Pad*/
 .next-frame {
@@ -268,7 +264,7 @@ a {text-decoration: none;}
 }
 .cal-frame {
 	height: auto;
-	width: 25%;
+	width: 22%;
 	position: relative;
 	background: #fff;
 	-webkit-box-shadow: 4px 10px 25px 12px rgba(214,218,219,0.51);
@@ -305,58 +301,223 @@ a {text-decoration: none;}
 	font-size: 2.4rem;
 	letter-spacing: 2px;
 }
+.cal2-key-pad {
+	height: 390px;
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: stretch;
+	align-items: stretch;
+}
+
+.cal2-sign-keys {
+	border-bottom-right-radius: 10px;
+	width: 25%;
+	/*border-bottom: 1px red;*/
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+
+.cal2-sign-key {
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	font-size: 2vw;
+	height: 20%;
+	color: #53A7E0;
+}
+
+.cal2-screen-display {
+	padding: 1rem 2rem 0 1rem;
+	height: auto;
+	width: 100%;
+	/*background: red;*/
+}
+
+.cal2-screen-display p {
+	text-align: right;
+	margin: 3px 0;
+}
+.cal2-sign-key {
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	font-size: 1.7vw;
+	/*border-bottom: 1px solid #b1aeb3;*/
+	border-right: none;
+	height: 20%;
+	/*color: #fff;*/
+}
+
+.cal2-top-keys {
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	height: 20%;
+	justify-content: space-between;
+	/*background: #F5E1FD;*/
+}
+.cal2-number-keys {
+	border-bottom-left-radius: 5px;
+	width: 75%;
+}
+
+.cal2-keys {
+	width: 33.333333333333336%;
+	height: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	color: #8697a5;	
+	font-size: 1.3vw;
+}
+
+.cal2-bottom-keys {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row wrap;
+	height: 80%;
+	border-bottom-left-radius: 5px;
+}
+.cal2-num-key {
+	width: 33.333333333333336%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	font-size: 1.4vw;
+	color: #8697a5;
+}
+.cal2-num-key:hover {
+	/*background: #3A4655;*/
+  -webkit-transition: all 0.3s!important;
+  -o-transition: all 0.3s!important;
+  -moz-transition: all 0.3s!important;
+  transition: all 0.3s!important;
+}
 /*///////////////////////////////////////////////////////////////////////////*/
 
 @media all and (max-width: 1199px) { 
-	.container {
-		width: 35%;
+	.cal-frame {
+		width: 30%;
 	}
 	.sign-key {
 		font-size: 3.2vw;
 	}
+	.cal2-sign-key {
+		font-size: 3.2vw;
+	}
 } 
 @media all and (max-width: 991px) { 
-	.container {
-		width: 39%;
+	.cal-frame {
+		width: 35%;
 	}
 	.sign-key {
+		font-size: 3vw;
+	}
+	.cal2-sign-key {
 		font-size: 3vw;
 	}
 	.keys {
 		font-size: 2.5vw;
 	}
+	.cal2-keys {
+		font-size: 2.5vw;
+	}
 	.num-key {
+		font-size: 2.5vw;
+	}
+	.cal2-num-key {
 		font-size: 2.5vw;
 	}
 } 
 @media all and (max-width: 768px) { 
-	.container {
-		width: 60%;
+	.cal-frame {
+		width: 50%;
 	}
 	.keys {
 		font-size: 3.1vw;
 	}
+	.cal2-keys {
+		font-size: 3.1vw;
+	}
 	.num-key {
+		font-size: 3.1vw;
+	}
+	.cal2-num-key {
 		font-size: 3.1vw;
 	}
 	.sign-key {
 		font-size: 4.2vw;
 	}
+	.cal2-sign-key {
+		font-size: 4.2vw;
+	}
 } 
 @media all and (max-width: 575px) { 
-	.container {
+	.cal-frame {
 		width: 90%;
 	}
 	.number-keys {
 		width: 75%;
 	}
+	.cal2-number-keys {
+		width: 75%;
+	}
 	.sign-key {
 		font-size: 6vw;
+	}
+	.cal2-sign-key {
+		font-size: 7vw;
 	}
 	.keys {
 		font-size: 4.5vw;
 	}
+	.cal2-keys {
+		font-size: 4.5vw;
+	}
 	.num-key {
+		font-size: 4.5vw;
+	}
+	.cal2-num-key {
 		font-size: 4.5vw;
 	}
 }
