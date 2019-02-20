@@ -211,7 +211,6 @@ sup {
 .zero-btn {
 	border-bottom-left-radius: 10px;
 	width: 66.66666666666667%;
-	
 }
 /*Key Pad*/
 .next-frame {
@@ -426,12 +425,17 @@ a {text-decoration: none;}
 	font-size: 1.4vw;
 	color: #8697a5;
 }
-.cal2-num-key:hover {
-	/*background: #3A4655;*/
+.cal2-btn:hover {
+	background: #3A4655;
+	border-radius: 50%;
   -webkit-transition: all 0.3s!important;
   -o-transition: all 0.3s!important;
   -moz-transition: all 0.3s!important;
   transition: all 0.3s!important;
+}
+.cal2-zero-btn {
+	/*border-bottom-left-radius: 10px;*/
+	width: 66.66666666666667%;
 }
 /*///////////////////////////////////////////////////////////////////////////*/
 
