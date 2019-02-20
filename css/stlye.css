@@ -13,9 +13,9 @@ html, body {
 }
 
 .container-wrap {
-	min-height: 90vh;
+	min-height: 100vh;
 	background: linear-gradient(125deg, #965ADB 0%, #FF9768 100%);
-	width: 70%;
+	width: 100%;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -27,7 +27,7 @@ html, body {
 }
 .container {
 	height: auto;
-	width: 35%;
+	width: 25%;
 	position: relative;
 	background: #fff;
 	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.10);
@@ -222,16 +222,13 @@ sup {
 
 @media all and (max-width: 1199px) { 
 	.container {
-		width: 50%;
+		width: 35%;
 	}
 	.sign-key {
 		font-size: 3.2vw;
 	}
 } 
 @media all and (max-width: 991px) { 
-	.container-wrap {
-		width: 90%;
-	}
 	.container {
 		width: 39%;
 	}
@@ -247,7 +244,7 @@ sup {
 } 
 @media all and (max-width: 768px) { 
 	.container {
-		width: 80%;
+		width: 60%;
 	}
 	.keys {
 		font-size: 3.1vw;
@@ -260,11 +257,8 @@ sup {
 	}
 } 
 @media all and (max-width: 575px) { 
-	.container-wrap {
-		width: 97%;
-	}
 	.container {
-		width: 95%;
+		width: 90%;
 	}
 	.number-keys {
 		width: 75%;

@@ -1,0 +1,58 @@
+ARINKA
+
+LOCATIONS	|	MOODS	|	BLOG				|	LOGIN / SIGNUP
+
+Discover the best places to travel to in Nigeria
+
+What type of adventure are you looking for?
+
+e.g educational, outdoors, relaxed
+
+ABOUT ARINKA
+Arinka is a fictional company, but actually a real idea someone had sometime in the past. In 1985 Aldus Corporation launched its first desktop publishing program Aldus PageMaker for Apple Macintosh computers, released in 1987 for PCs running Windows 1.0. Both contained the variant lorem ipsum most common today.
+
+Bauchi Park 										|	Jos, Plateau											|	Abuja Car Racing
+Relaxed holiday for two					|	Experience Nigeria in the 60s			|	Get Your Adrenaline Pumping
+
+SEE MORE
+
+ON THE BLOG
+
+Hanging out
+in Borno
+
+Terms and Conditions				|		Copyright Frontstack, 2017
+
+
+Hero Background	==> background: linear-gradient(180deg, #EB5757 0%, #D59152 100%);
+Hero Text	==>	Catamaran
+
+Login button	==>	background: rgba(255, 255, 255, 0.2);
+border-radius: 25px;
+
+Search Placeholder ==>	color: #C3C0C0;	border-color: #F2994A;
+See More ==>	border-color: #E36F55;	color: #E36F55;
+
+
+About Arinka ==>	color: #C3C0C0;
+Above footer text ==>	color: #FEBE61;
+
+
+
+
+
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...} 
