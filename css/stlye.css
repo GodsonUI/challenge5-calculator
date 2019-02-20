@@ -218,6 +218,39 @@ sup {
 	width: 66.66666666666667%;
 }
 /*Key Pad*/
+.next-frame {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  outline: none;
+  padding: .84rem 2.14rem;
+  color: #3A4655;
+  cursor: pointer;
+  padding-top: .7rem;
+  border: 1px solid #1C2331;
+  border-radius: 10em!important;
+  background-color: transparent;
+	padding-bottom: .7rem;
+  vertical-align: middle;
+	
+	box-shadow: 0 0 1px rgba(0,0,0,0);
+	-webkit-transition: all 0.3s!important;
+  -o-transition: all 0.3s!important;
+  -moz-transition: all 0.3s!important;
+  transition: all 0.3s!important;
+}
+
+a {text-decoration: none;}
+.next-frame:hover {
+	background: #3A4655;
+	-webkit-transition: all 0.3s!important;
+  -o-transition: all 0.3s!important;
+  -moz-transition: all 0.3s!important;
+  transition: all 0.3s!important;
+  color: #fff;
+}
 /*///////////////////////////////////////////////////////////////////////////*/
 
 @media all and (max-width: 1199px) { 
