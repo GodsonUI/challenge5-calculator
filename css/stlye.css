@@ -484,7 +484,7 @@ a {text-decoration: none;}
 	letter-spacing: 1.3px;
 }
 .cal3-num-key {
-	width: 33.333333333333336%;
+	width: 25%;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -497,7 +497,7 @@ a {text-decoration: none;}
 	font-size: 1.4vw;
 	color: #666;
 }
-.cal3-btn:hover {
+/*.cal3-btn:hover {
 	background: #3A4655;
 	color: #fff;
 	border-radius: 50%;
@@ -505,7 +505,7 @@ a {text-decoration: none;}
   -o-transition: all 0.3s!important;
   -moz-transition: all 0.3s!important;
   transition: all 0.3s!important;
-}
+}*/
 
 .cal3-sign-key {
 	width: 100%;
@@ -521,6 +521,26 @@ a {text-decoration: none;}
 	font-size: 2vw;
 	height: 20%;
 	color: #666;
+}
+.equal-btn {
+	background: red;
+	width: 66.66666666666667%!important;
+	margin-left: -12vh;
+}
+
+.cal3-bottom-keys {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: row wrap;
+	height: 80%;
+	border-bottom-left-radius: 5px;
+}
+.cal3-number-keys {
+	border-bottom-left-radius: 5px;
+	width: 100%;
 }
 /*Third Calculator*/
 /*///////////////////////////////////////////////////////////////////////////*/
@@ -635,7 +655,7 @@ a {text-decoration: none;}
 		width: 75%;
 	}
 	.cal3-number-keys {
-		width: 75%;
+		width: 100%;
 	}
 	.sign-key {
 		font-size: 6vw;
