@@ -427,6 +427,7 @@ a {text-decoration: none;}
 }
 .cal2-btn:hover {
 	background: #3A4655;
+	color: #fff;
 	border-radius: 50%;
   -webkit-transition: all 0.3s!important;
   -o-transition: all 0.3s!important;
@@ -439,7 +440,95 @@ a {text-decoration: none;}
 }
 /*///////////////////////////////////////////////////////////////////////////*/
 
+/*///////////////////////////////////////////////////////////////////////////*/
+/*Third Calculator*/
+.calculator3-wrap {
+	min-height: 100vh;
+	background: #F9F9F9;
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+.cal3-frame {
+	height: auto;
+	width: 22%;
+	position: relative;
+	background: #fff;
+	-webkit-box-shadow: 4px 10px 25px 12px rgba(214,218,219,0.51);
+	-moz-box-shadow: 4px 10px 25px 12px rgba(214,218,219,0.51);
+	box-shadow: 4px 10px 25px 12px rgba(214,218,219,0.51);
+	border-radius: 15px;
+}
+
+.cal3-screen-display {
+	padding: 3rem 2rem 0 1rem;
+	height: auto;
+	width: 100%;
+	/*background: red;*/
+}
+
+.cal3-screen-display p {
+	text-align: right;
+	margin: 3px 0;
+}
+
+.cal3-prev-val {
+	font-size: 1.3rem;
+	color: #BFC8D1;
+	letter-spacing: 1.3px;
+}
+.cal3-num-key {
+	width: 33.333333333333336%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	font-size: 1.4vw;
+	color: #666;
+}
+.cal3-btn:hover {
+	background: #3A4655;
+	color: #fff;
+	border-radius: 50%;
+  -webkit-transition: all 0.3s!important;
+  -o-transition: all 0.3s!important;
+  -moz-transition: all 0.3s!important;
+  transition: all 0.3s!important;
+}
+
+.cal3-sign-key {
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	font-size: 2vw;
+	height: 20%;
+	color: #666;
+}
+/*Third Calculator*/
+/*///////////////////////////////////////////////////////////////////////////*/
+
 @media all and (max-width: 1199px) { 
+	.cal3-frame {
+		width: 30%;
+	}
 	.cal-frame {
 		width: 30%;
 	}
@@ -450,10 +539,16 @@ a {text-decoration: none;}
 		font-size: 3.2vw;
 	}
 	.cal2-sign-key {
+		font-size: 3.2vw;
+	}
+	.cal3-sign-key {
 		font-size: 3.2vw;
 	}
 } 
 @media all and (max-width: 991px) { 
+	.cal3-frame {
+		width: 35%;
+	}
 	.cal-frame {
 		width: 35%;
 	}
@@ -466,6 +561,9 @@ a {text-decoration: none;}
 	.cal2-sign-key {
 		font-size: 3vw;
 	}
+	.cal3-sign-key {
+		font-size: 3vw;
+	}
 	.keys {
 		font-size: 2.5vw;
 	}
@@ -476,10 +574,16 @@ a {text-decoration: none;}
 		font-size: 2.5vw;
 	}
 	.cal2-num-key {
+		font-size: 2.5vw;
+	}
+	.cal3-num-key {
 		font-size: 2.5vw;
 	}
 } 
 @media all and (max-width: 768px) { 
+	.cal3-frame {
+		width: 50%;
+	}
 	.cal-frame {
 		width: 50%;
 	}
@@ -492,10 +596,16 @@ a {text-decoration: none;}
 	.cal2-keys {
 		font-size: 3.1vw;
 	}
+	.cal3-keys {
+		font-size: 3.1vw;
+	}
 	.num-key {
 		font-size: 3.1vw;
 	}
 	.cal2-num-key {
+		font-size: 3.1vw;
+	}
+	.cal3-num-key {
 		font-size: 3.1vw;
 	}
 	.sign-key {
@@ -504,8 +614,14 @@ a {text-decoration: none;}
 	.cal2-sign-key {
 		font-size: 4.2vw;
 	}
+	.cal3-sign-key {
+		font-size: 4.2vw;
+	}
 } 
 @media all and (max-width: 575px) { 
+	.cal3-frame {
+		width: 90%;
+	}
 	.cal-frame {
 		width: 90%;
 	}
@@ -518,10 +634,16 @@ a {text-decoration: none;}
 	.cal2-number-keys {
 		width: 75%;
 	}
+	.cal3-number-keys {
+		width: 75%;
+	}
 	.sign-key {
 		font-size: 6vw;
 	}
 	.cal2-sign-key {
+		font-size: 7vw;
+	}
+	.cal3-sign-key {
 		font-size: 7vw;
 	}
 	.keys {
@@ -530,10 +652,16 @@ a {text-decoration: none;}
 	.cal2-keys {
 		font-size: 4.5vw;
 	}
+	.cal3-keys {
+		font-size: 4.5vw;
+	}
 	.num-key {
 		font-size: 4.5vw;
 	}
 	.cal2-num-key {
+		font-size: 4.5vw;
+	}
+	.cal3-num-key {
 		font-size: 4.5vw;
 	}
 }
